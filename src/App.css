@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: right;
 }
 
 .App-logo {
@@ -13,13 +13,16 @@
   }
 }
 
-.App-header {
+.App {
   background-color: #282c34;
+  background-image: url("https://wallpaper.dog/large/5518755.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items:center;
+  justify-content: right;
   font-size: calc(10px + 2vmin);
   color: white;
 }
