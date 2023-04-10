@@ -17,7 +17,7 @@ class App extends Component {
     console.log("handleSubmit called");
     const outputDiv = document.getElementById('output');
     const formData = new FormData(this.formRef.current);
-    fetch('https://winesbackend-git-main-koyel120601.vercel.app/', {
+    fetch('https://f558-103-220-208-78.ngrok-free.app', {
       method: 'POST',
       body: formData
     })
